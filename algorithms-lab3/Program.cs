@@ -2,9 +2,7 @@
 
 using System.Text; // This is for Q3
 
-
 Console.WriteLine("LAB 3 - Complexity");
-
 
 static void printRecurring(int[] numberList) // I declared this method as static because there's nothing to return. 
 {
@@ -35,7 +33,6 @@ static void printRecurring(int[] numberList) // I declared this method as static
     // This foreach loop will only run if there is something in the repeating list collection.
 
 }
-
 static void sortAndMerge(int[][] twoArrays)
 {
     int[] combinedArray = new int[twoArrays[0].Length + twoArrays[1].Length];
@@ -133,4 +130,3 @@ Console.WriteLine($"\n\nPROBLEM 3\n");
 int givenInteger = 3415;
 
 reverseDigits(givenInteger);
-
