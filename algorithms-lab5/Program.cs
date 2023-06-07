@@ -163,10 +163,8 @@ void doAction(int option)
         {
             Console.WriteLine("Next song - " + nextSongs.ToArray()[0]);
         }
-           
 
     }
-
 
 }
 
