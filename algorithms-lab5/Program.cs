@@ -9,7 +9,7 @@ int optionGlobal = 0;
 
 Console.WriteLine("LAB 5 - Stacks, Queues");
 
-// Very proud of this one, it may be the first one where I figured it out using pen and paper and without searching up solutions to anything online.
+// Very proud of this one, it may be the first one where I figured it out using pen and paper and problem solving and without using the internet for anything aside from help with syntax.
 // Would prefer to be graded on this one. 
 
 static int chooseOption()
@@ -114,7 +114,6 @@ void doAction(int option)
             Console.WriteLine("No more songs left in queue! (You should add more)");
         }
 
-
     }
     else if (option == 3)
     {
@@ -180,5 +179,3 @@ while (exit == false) {
 
     doAction(optionGlobal);
 }
-
-
